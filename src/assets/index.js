@@ -21,6 +21,21 @@ import tailwind from "./tech/tailwind.png";
 import typescript from "./tech/typescript.png";
 import threejs from "./tech/threejs.svg";
 
+import java from "./tech/java.png";
+import mysql from "./tech/mysql.png";
+import postgres from "./tech/postgres.png";
+import jquery from "./tech/jquery.png";
+import express from "./tech/express.png";
+import mongoose from "./tech/mongoose.png";
+import salesforce from "./tech/salesforce.png";
+import hibernate from "./tech/hibernate.png";
+import boostrap from "./tech/boostrap.png";
+import spring from "./tech/spring.svg";
+
+
+
+
+
 import meta from "./company/meta.png";
 import shopify from "./company/shopify.png";
 import starbucks from "./company/starbucks.png";
@@ -62,4 +77,14 @@ export {
   tripguide,
   labs,
   netone,
+  java,
+  mysql,
+  postgres,
+  jquery,
+  express,
+  mongoose,
+  spring,
+  salesforce,
+  hibernate,
+  boostrap,
 };

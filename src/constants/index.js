@@ -25,6 +25,16 @@ import {
   threejs,
   labs,
   netone,
+  java,
+  mysql,
+  postgres,
+  jquery,
+  express,
+  mongoose,
+  spring,
+  salesforce,
+  hibernate,
+  boostrap,
 } from "../assets";
 
 export const navLinks = [
@@ -60,8 +70,53 @@ const services = [
     icon: creator,
   },
 ];
-
+/* java,
+  mysql,
+  postgres,
+  jquery,
+  express,
+  mongoose,
+  spring,
+  salesforce,
+  hibernate,
+  boostrap,*/
 const technologies = [
+  {
+    name:"Java",
+    icon: java
+  },
+  {
+    name:"MySQL",
+    icon: mysql
+  },
+  {
+    name:"PostgresSQL",
+    icon: postgres
+  },
+  {
+    name:"JQuery",
+    icon: jquery
+  },
+  {
+    name:"Express JS",
+    icon: express
+  },
+  {
+    name:"Spring Framework",
+    icon: spring
+  },
+  {
+    name:"Salesforce Tecnology",
+    icon: salesforce
+  },
+  {
+    name:"Hibernate ORM",
+    icon: hibernate
+  },
+  {
+    name:"Boostrap",
+    icon: boostrap
+  },
   {
     name: "HTML 5",
     icon: html,
