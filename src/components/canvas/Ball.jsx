@@ -7,6 +7,7 @@ import {
   Preload,
   useTexture,
 } from "@react-three/drei";
+import { BoxGeometry } from 'three';
 
 import CanvasLoader from "../Loader";
 
@@ -18,17 +19,13 @@ const Ball = (props) => {
       <ambientLight intensity={0.25} />
       <directionalLight position={[0, 0, 0.05]} />
       <mesh castShadow receiveShadow scale={2.75}>
-        <icosahedronGeometry args={[1, 1]} />
-        <meshStandardMaterial
-          color='#fff8eb'
-          polygonOffset
-          polygonOffsetFactor={-5}
-          flatShading
-        />
+        <boxGeometry args={[1, 1, 1]} />
+        <meshStandardMaterial color="white" />
+        {/* Ajustar los valores de posición, rotación y escala del Decal */}
         <Decal
-          position={[0, 0, 1]}
-          rotation={[2 * Math.PI, 0, 6.25]}
-          scale={1}
+          position={[0, 0, 0]}
+          rotation={[0, 0, 0]} // Modifica los ángulos de rotación si es necesario
+          scale={[1, 1, 1]} // Modifica la escala para ajustar el tamaño de la textura
           map={decal}
           flatShading
         />

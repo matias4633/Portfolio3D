@@ -194,27 +194,27 @@ const experiences = [
 const testimonials = [
   {
     testimonial:
-      "I thought it was impossible to make a website as beautiful as our product, but Rick proved me wrong.",
-    name: "Sara Lee",
-    designation: "CFO",
-    company: "Acme Co",
-    image: "https://randomuser.me/api/portraits/women/4.jpg",
+    "Matias es un desarrollador brillante, siempre encuentra soluciones ingeniosas a los desafíos técnicos. Su pasión por la programación es contagiosa y su habilidad para trabajar en equipo es sobresaliente.",
+    name: "German Lopez",
+    designation: "Dev Señor",
+    company: "Net One",
+    image: "https://randomuser.me/api/portraits/men/4.jpg",
   },
   {
     testimonial:
-      "I've never met a web developer who truly cares about their clients' success like Rick does.",
-    name: "Chris Brown",
-    designation: "COO",
-    company: "DEF Corp",
+    "Trabajar con Matias ha sido una experiencia gratificante. Su código es limpio y eficiente, y siempre cumple con los plazos de entrega.",
+    name: "Hernan Rinaldo",
+    designation: "PM",
+    company: "NetOne",
     image: "https://randomuser.me/api/portraits/men/5.jpg",
   },
   {
     testimonial:
-      "After Rick optimized our website, our traffic increased by 50%. We can't thank them enough!",
-    name: "Lisa Wang",
-    designation: "CTO",
-    company: "456 Enterprises",
-    image: "https://randomuser.me/api/portraits/women/6.jpg",
+    "Matias es un desarrollador altamente competente y confiable. Su creatividad y enfoque en la calidad hacen que sus proyectos destaquen.",
+    name: "Hernán Marrapodi",
+    designation: "Desarrollador",
+    company: "NetOne",
+    image: "https://randomuser.me/api/portraits/men/6.jpg",
   },
 ];
 
