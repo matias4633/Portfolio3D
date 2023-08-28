@@ -41,9 +41,9 @@ import shopify from "./company/shopify.png";
 import starbucks from "./company/starbucks.png";
 import tesla from "./company/tesla.png";
 
-import carrent from "./carrent.png";
-import jobit from "./jobit.png";
-import tripguide from "./tripguide.png";
+import carrent from "./pagouno.png";
+import jobit from "./padrones.jpg";
+import tripguide from "./pokeapp.png";
 import labs from './company/labs.webp';
 import netone from './company/netone.jpg';
 export {
