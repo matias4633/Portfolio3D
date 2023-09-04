@@ -2,8 +2,14 @@ import { motion } from "framer-motion";
 
 import { styles } from "../styles";
 import { ComputersCanvas } from "./canvas";
+import Msj from "./Msj";
 
 const Hero = () => {
+  let mensajes = ["Bienvenido/a","Aqui puedes interactuar con las animaciones " ,
+                   "Intenta moverlas" , 
+                   "Espero que disfrutes la experiencia!" , 
+                   "No olvides dejarme un mensaje!",
+                   "Desarrollador de software"];
   return (
     <section className={`relative w-full h-screen mx-auto`}>
       <div
@@ -16,11 +22,10 @@ const Hero = () => {
 
         <div>
           <h1 className={`${styles.heroHeadText} text-white`}>
-            Hola, soy <span className='text-[#52a51e]'>Matias</span>
+            Hola, soy <span className='text-[#52a51e]'>Matias </span>
           </h1>
           <p className={`${styles.heroSubText} mt-2 text-white-100`}>
-            Desarrollador <br className='sm:block hidden' />
-            de software.
+          <Msj mensajes = {mensajes}/> <br className='sm:block hidden' />
           </p>
         </div>
       </div>

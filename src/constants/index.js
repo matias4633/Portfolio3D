@@ -35,6 +35,8 @@ import {
   salesforce,
   hibernate,
   boostrap,
+  tienda,
+  reloj,
 } from "../assets";
 
 export const navLinks = [
@@ -213,12 +215,13 @@ const projects = [
       },
     ],
     image: carrent,
-    source_code_link: "https://www.youtube.com/watch?v=vSNdyU8AwqU",
+    source_code_link: "https://youtu.be/ik11qQkbnT0",
+    logo:1,
   },
   {
     name: "MicroServicio Padrones ARG",
     description:
-      "Servicio independiente que procesa y proporciona las alicuotas de reteneciones y persepciones para las acciones de cobro. Sirve a todos los servidores del sistema de gestion.",
+      "Servicio independiente que procesa y proporciona las alicuotas de retenciones y persepciones para las acciones de cobro. Sirve a todos los servidores del sistema de gestion.",
     tags: [
       {
         name: "Node js",
@@ -235,6 +238,7 @@ const projects = [
     ],
     image: jobit,
     source_code_link: "https://github.com/matias4633/",
+    logo:0,
   },
   {
     name: "Salesforce PokeApp",
@@ -256,6 +260,52 @@ const projects = [
     ],
     image: tripguide,
     source_code_link: "https://github.com/matias4633/PokeAppSalesforce",
+    logo:0,
+  },
+  {
+    name: "Tienda Online",
+    description:
+      "Proyecto desarrolado con tecnologias web Puras , HTML CSS Javascript.",
+    tags: [
+      {
+        name: "HTML",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "Javascript",
+        color: "green-text-gradient",
+      },
+      {
+        name: "CSS",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: tienda,
+    source_code_link: "https://github.com/matias4633/TiendaOnline",
+    logo:0,
+  },
+  ,
+  {
+    name: "Web App SmartWatch",
+    description:
+      "App informativa sobre la cotización del dolar en tiempo real al cambio Argentino.",
+    tags: [
+      {
+        name: "Tizen OS",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "Javascript",
+        color: "green-text-gradient",
+      },
+      {
+        name: "CSS",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: reloj,
+    source_code_link: "https://github.com/matias4633/Bill-Metal",
+    logo:0,
   },
 ];
 

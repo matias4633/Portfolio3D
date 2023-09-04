@@ -46,6 +46,10 @@ import jobit from "./padrones.jpg";
 import tripguide from "./pokeapp.png";
 import labs from './company/labs.webp';
 import netone from './company/netone.jpg';
+import yt from "./yt.webp";
+import tienda from "./tiendaonline.png";
+import reloj from "./reloj.png";
+
 export {
   logo,
   backend,
@@ -87,4 +91,7 @@ export {
   salesforce,
   hibernate,
   boostrap,
+  yt,
+  tienda,
+  reloj,
 };
