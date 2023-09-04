@@ -25,7 +25,7 @@ const Hero = () => {
             Hola, soy <span className='text-[#52a51e]'>Matias </span>
           </h1>
           <p className={`${styles.heroSubText} mt-2 text-white-100`}>
-          <Msj mensajes = {mensajes}/> <br className='sm:block hidden' />
+          <Msj mensajes = {mensajes}/> {/*<br className='sm:block hidden' />*/} 
           </p>
         </div>
       </div>

@@ -5,7 +5,6 @@ const Msj = ({mensajes})=>{
     const [index , setIndex] = useState(0);
 
     const changeMsj = ()=>{
-        console.log(mensaje + index);
         setMensaje(mensajes[index]);
     };
   

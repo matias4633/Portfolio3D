@@ -21,7 +21,7 @@ const ProjectCard = ({
   let logos =[github,yt];
 
   return (
-    <motion.div variants={fadeIn("up", "spring", index * 0.5, 0.75)}>
+      <div>
       <Tilt
         options={{
           max: 45,
@@ -67,25 +67,33 @@ const ProjectCard = ({
           ))}
         </div>
       </Tilt>
-    </motion.div>
+      </div>
   );
 };
 
 const Works = () => {
   return (
     <>
-      <motion.div variants={textVariant()}>
+     {/* <motion.div variants={textVariant(0)}>
         <p className={`${styles.sectionSubText} `}>Mi trabajo</p>
         <h2 className={`${styles.sectionHeadText}`}>Proyectos.</h2>
-      </motion.div>
+      </motion.div> */}
+
+      <div>
+        <p className={`${styles.sectionSubText} `}>Mi trabajo</p>
+        <h2 className={`${styles.sectionHeadText}`}>Proyectos.</h2>
+      </div>
 
       <div className='w-full flex'>
-        <motion.p
+       {/* <motion.p
           variants={fadeIn("", "", 0.1, 1)}
           className='mt-3 text-secondary text-[17px] max-w-3xl leading-[30px]'
         >
           Los siguientes proyectos muestran mis habilidades y experiencia a través de ejemplos de mi trabajo. Cada proyecto se describe brevemente con enlaces a repositorios de código y demostraciones en vivo. Refleja mi capacidad para resolver problemas complejos, trabajar con diferentes tecnologías y administrar proyectos de manera efectiva.
-        </motion.p>
+        </motion.p> */}
+        <p className='mt-3 text-secondary text-[17px] max-w-3xl leading-[30px]'>
+        Los siguientes proyectos muestran mis habilidades y experiencia a través de ejemplos de mi trabajo. Cada proyecto se describe brevemente con enlaces a repositorios de código y demostraciones en vivo. Refleja mi capacidad para resolver problemas complejos, trabajar con diferentes tecnologías y administrar proyectos de manera efectiva.
+        </p>
       </div>
 
       <div className='mt-20 flex flex-wrap gap-7'>

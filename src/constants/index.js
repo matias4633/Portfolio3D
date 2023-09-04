@@ -37,6 +37,7 @@ import {
   boostrap,
   tienda,
   reloj,
+  leandro,
 } from "../assets";
 
 export const navLinks = [
@@ -171,11 +172,11 @@ const experiences = [
 const testimonials = [
   {
     testimonial:
-    "Matias es un desarrollador brillante, siempre encuentra soluciones ingeniosas a los desafíos técnicos. Su pasión por la programación es contagiosa y su habilidad para trabajar en equipo es sobresaliente.",
-    name: "German Lopez",
-    designation: "Dev Señor",
+    "Matías es un excelente compañero, no solo ha demostrado su habilidad desde lo técnico, sino que además realiza un gran aporte al equipo. Siempre se puede contar con el para resolver cualquier tipo de problemática, desde algoritmos, bases de datos, front-end, procesos y muchas otras cosas. Siempre desde NetOne valoramos su opinión.",
+    name: "Leandro Alfaro",
+    designation: "Developer",
     company: "Net One",
-    image: "https://randomuser.me/api/portraits/men/4.jpg",
+    image: leandro,
   },
   {
     testimonial:
@@ -187,9 +188,9 @@ const testimonials = [
   },
   {
     testimonial:
-    "Matias es un desarrollador altamente competente y confiable. Su creatividad y enfoque en la calidad hacen que sus proyectos destaquen.",
+    "Matias es un desarrollador competente y confiable. Su creatividad y enfoque en la calidad hacen que sus proyectos destaquen.",
     name: "Hernán Marrapodi",
-    designation: "Desarrollador",
+    designation: "Developer",
     company: "NetOne",
     image: "https://randomuser.me/api/portraits/men/6.jpg",
   },

@@ -49,6 +49,7 @@ import netone from './company/netone.jpg';
 import yt from "./yt.webp";
 import tienda from "./tiendaonline.png";
 import reloj from "./reloj.png";
+import leandro from "./leandro.jpg";
 
 export {
   logo,
@@ -94,4 +95,5 @@ export {
   yt,
   tienda,
   reloj,
+  leandro,
 };
