@@ -50,6 +50,7 @@ import yt from "./yt.webp";
 import tienda from "./tiendaonline.png";
 import reloj from "./reloj.png";
 import leandro from "./leandro.jpg";
+import apppeli from "./apppeli.png";
 
 export {
   logo,
@@ -96,4 +97,5 @@ export {
   tienda,
   reloj,
   leandro,
+  apppeli
 };

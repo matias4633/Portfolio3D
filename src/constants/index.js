@@ -38,6 +38,7 @@ import {
   tienda,
   reloj,
   leandro,
+  apppeli
 } from "../assets";
 
 export const navLinks = [
@@ -239,6 +240,28 @@ const projects = [
     ],
     image: jobit,
     source_code_link: "https://github.com/matias4633/",
+    logo:0,
+  },
+  {
+    name: "Movie Nigth",
+    description:
+      "Aplicacion de peliculas desarrollada con React JS",
+    tags: [
+      {
+        name: "React js",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "Javascript",
+        color: "green-text-gradient",
+      },
+      {
+        name: "CSS",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: apppeli,
+    source_code_link: "https://github.com/matias4633/AppPeliculasReact",
     logo:0,
   },
   {
