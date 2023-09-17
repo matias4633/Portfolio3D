@@ -130,6 +130,24 @@
   border-radius: 50%;
 }
 
+.contProfile{
+  width: 200px;
+  height: 200px;
+  border-radius: 59%;
+  overflow: hidden;
+  margin: 0 24px;
+}
+.contProfile span img{
+  position: relative;
+  top:0px;
+  margin: auto;
+  width: 100%;
+}
+
+.contProfileMobile{
+  display: none;
+}
+
 @keyframes mulShdSpin {
   0%,
   100% {

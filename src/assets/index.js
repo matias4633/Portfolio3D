@@ -51,6 +51,7 @@ import tienda from "./tiendaonline.png";
 import reloj from "./reloj.png";
 import leandro from "./leandro.jpg";
 import apppeli from "./apppeli.png";
+import perfil from './matias.jpg';
 
 export {
   logo,
@@ -97,5 +98,6 @@ export {
   tienda,
   reloj,
   leandro,
-  apppeli
+  apppeli,
+  perfil
 };
