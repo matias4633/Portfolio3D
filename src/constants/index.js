@@ -38,7 +38,8 @@ import {
   tienda,
   reloj,
   leandro,
-  apppeli
+  apppeli,
+  perfil
 } from "../assets";
 
 export const navLinks = [
@@ -166,6 +167,17 @@ const experiences = [
           "Construí microservicios con Express , Node JS , TypeScript , Mongoose.",
           "Desarrollo de checkout, Manejo de suscripciones, caracteristicas y parametros asociados al sistema.",
           "Plataforma de cobro automatico de documentos con medios de pago recurrentes.",
+    ],
+  },
+  {
+    title: "Software Engineer",
+    company_name: "Freelancer",
+    icon: perfil,
+    iconBg: "white",
+    date: "Agosto 2022 - Presente",
+    points: [
+          "Tecnologias : React js , Angular js , Java , Spring Core , Spring Boot , Spring Security , Hibernate , Servlets , Javascript , JQuery , Boostrap",
+          "Bases de datos relacionales con MySQL, No relacionales MongoDB.",
     ],
   }
 ];
