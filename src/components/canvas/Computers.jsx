@@ -1,12 +1,12 @@
 import React, { Suspense, useEffect, useState } from "react";
 import { Canvas } from "@react-three/fiber";
 import { OrbitControls, Preload, useGLTF } from "@react-three/drei";
-
 import CanvasLoader from "../Loader";
+import { Ninja2 } from "./Ninja2";
+import Woman from "./Woman";
 
 const Computers = ({ isMobile }) => {
   const computer = useGLTF("./desktop_pc/scene.gltf");
-
   return (
     <mesh>
       <hemisphereLight intensity={0.5} groundColor='black' />
@@ -69,6 +69,8 @@ const ComputersCanvas = () => {
           autoRotate={true}
         />
         <Computers isMobile={isMobile} />
+        <Ninja2 isMobile={isMobile}></Ninja2>
+        <Woman isMobile={isMobile}></Woman>
       </Suspense>
 
       <Preload all />
