@@ -67,13 +67,13 @@ const ComputersCanvas = () => {
           enableZoom={false}
           maxPolarAngle={Math.PI / 2}
           minPolarAngle={Math.PI / 2}
-         // autoRotate={true}
+          autoRotate={true}
         />
         <Computers isMobile={isMobile} />
         <Ninja2 isMobile={isMobile}></Ninja2>
         <Woman isMobile={isMobile}></Woman>
         {/* <Dragon2 isMobile={isMobile}></Dragon2> */}
-        <Plane  isMobile={isMobile}></Plane>
+        {/* <Plane  isMobile={isMobile}></Plane> */}
       </Suspense>
 
       <Preload all />
