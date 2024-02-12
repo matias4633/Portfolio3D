@@ -1,0 +1,1 @@
+npx gltfjsx public/woman/ninja3.glb

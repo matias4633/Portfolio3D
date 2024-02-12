@@ -10,8 +10,8 @@ export function Ninja2({ isMobile }) {
   const group = useRef()
   const { nodes, materials, animations } = useGLTF('/woman/ninja2.glb')
   const { actions , names } = useAnimations(animations, group)
-  console.log(actions);
-  console.log(names);
+  // console.log(actions);
+  // console.log(names);
   useEffect(() => {
     actions[names[1]].reset().fadeIn(0.5).play();
     return () => {

@@ -11,7 +11,7 @@ const Woman = ({ isMobile }) => {
   const { nodes, materials, animations } = useGLTF("/woman/woman.gltf");
   // const { setAnimations, animationIndex } = useCharacterAnimations();
   const { actions, names } = useAnimations(animations, group);
-  console.log(actions);
+  // console.log(actions);
   const index = 0;
   useEffect(() => {
     actions[names[index]].reset().fadeIn(0.5).play();
