@@ -4,7 +4,7 @@ import { OrbitControls, Preload, useGLTF } from "@react-three/drei";
 import CanvasLoader from "../Loader";
 import { Ninja2 } from "./Ninja2";
 import Woman from "./Woman";
-import { Dragon2 } from "./Dragon2";
+import { Plane } from "./Plane";
 
 const Computers = ({ isMobile }) => {
   const computer = useGLTF("./desktop_pc/scene.gltf");
@@ -67,12 +67,13 @@ const ComputersCanvas = () => {
           enableZoom={false}
           maxPolarAngle={Math.PI / 2}
           minPolarAngle={Math.PI / 2}
-          autoRotate={true}
+         // autoRotate={true}
         />
         <Computers isMobile={isMobile} />
         <Ninja2 isMobile={isMobile}></Ninja2>
         <Woman isMobile={isMobile}></Woman>
         {/* <Dragon2 isMobile={isMobile}></Dragon2> */}
+        <Plane  isMobile={isMobile}></Plane>
       </Suspense>
 
       <Preload all />

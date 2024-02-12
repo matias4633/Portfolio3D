@@ -45,15 +45,22 @@ const About = () => {
 
       <motion.p
         variants={fadeIn("", "", 0.1, 1)}
-        className='mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]'
+        className='mt-4 text-secondary text-[17px] leading-[30px]'
       >
-        Soy un estudiante avanzado de Ingeniería Informática con una pasión innata por el
-        desarrollo de software y una sólida experiencia en la creación de soluciones tecnológicas
-        de vanguardia. Mi enfoque se ha centrado en el desarrollo de integraciones con medios
-        de pago, la implementación de microservicios y la construcción de plataformas de gestión
-        empresarial eficientes. Mi trayectoria incluye proyectos exitosos de cobros automáticos,
-        donde he demostrado mi habilidad para garantizar procesos fluidos y seguros para los
-        clientes.
+        ¡Bienvenido a mi portfolio! Soy un apasionado desarrollador de software con una sólida experiencia en proyectos de gestión de negocios y microservicios. Mi carrera como estudiante de ingeniería informática me ha brindado una base sólida en lógica de negocio y un profundo conocimiento de diversas tecnologías.
+        <br/>
+        <br/>
+        Mi enfoque principal se centra en el ecosistema Java, donde me desenvuelvo con soltura utilizando tecnologías como Java EE, Spring, Spring Boot, Spring Security y Spring Cloud. Para front trabajo con React.js, Angular.js o Web puro.
+        <br/>
+        <br/>
+        En mi trayectoria como desarrollador de software, también he trabajado con bases de datos relacionales, especialmente con MySQL. Tengo experiencia sólida en el diseño y la optimización de esquemas de bases de datos, así como en la escritura de consultas complejas para garantizar un rendimiento óptimo y una integridad de datos impecable.
+        <br/>
+        <br/>
+        Además, poseo un sólido conocimiento en bases de datos NoSQL, especialmente en MongoDB. Estas herramientas me permiten crear aplicaciones robustas y escalables que cumplen con los más altos estándares de calidad.
+        <br/>
+        <br/>
+        Estoy emocionado de compartir contigo algunos de los proyectos en los que he trabajado y cómo mi experiencia y habilidades pueden contribuir al éxito de tu próximo proyecto. ¡Gracias por visitar mi portfolio!
+
       </motion.p>
 
       <div className='mt-20 flex flex-wrap gap-10'>
