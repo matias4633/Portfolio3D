@@ -12,7 +12,7 @@ const Woman = ({ isMobile }) => {
   // const { setAnimations, animationIndex } = useCharacterAnimations();
   const { actions, names } = useAnimations(animations, group);
   // console.log(actions);
-  const index = 0;
+  const index = 1;
   useEffect(() => {
     actions[names[index]].reset().fadeIn(0.5).play();
     return () => {
