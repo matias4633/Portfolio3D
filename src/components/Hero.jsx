@@ -1,22 +1,21 @@
 import { motion } from "framer-motion";
-import { useEffect , useState } from "react";
+import { useEffect, useState } from "react";
 import { styles } from "../styles";
 import { ComputersCanvas } from "./canvas";
+import { video } from "../assets";
 import Msj from "./Msj";
 import { Profile } from "./canvas/Profile";
 
 const Hero = () => {
   let mensajes = [
     "Bienvenido/a",
-    "Aqui puedes interactuar con las animaciones ",
-    "Intenta moverlas",
     "Espero que disfrutes la experiencia!",
     "No olvides dejarme un mensaje!",
     "Desarrollador de software",
   ];
 
   const [isMobile, setIsMobile] = useState(false);
-  
+
   useEffect(() => {
     const mediaQuery = window.matchMedia("(max-width: 639px)");
     setIsMobile(mediaQuery.matches);
@@ -31,6 +30,14 @@ const Hero = () => {
 
   return (
     <section className={`relative w-full h-screen mx-auto`}>
+      {/* Video de fondo */}
+      <video
+        className="absolute inset-0 w-full h-[85%] object-cover mt-[200px]"
+        src={video}
+        autoPlay
+        muted
+      />
+
       <div
         className={`absolute inset-0 top-[120px]  max-w-7xl mx-auto ${styles.paddingX} flex flex-row items-start gap-5`}
       >
@@ -40,10 +47,10 @@ const Hero = () => {
         </div>
 
         <div>
-          <h1 className={`${styles.heroHeadText} text-white`}>
-            Hola, soy <span className="text-[#52a51e]">Matias </span>
+          <h1 className={`${styles.heroHeadText} `} style={{color:'chocolate'}}>
+            Hola, soy <span className="text-[#8b1ea5]">Matias </span>
           </h1>
-          <p className={`${styles.heroSubText} mt-2 text-white-100`}>
+          <p className={`${styles.heroSubText} mt-2 text-black-100`}>
             <Msj mensajes={mensajes} /> {/*<br className='sm:block hidden' />*/}
           </p>
         </div>
@@ -52,7 +59,7 @@ const Hero = () => {
         </div>
       </div>
 
-      <ComputersCanvas />
+      {/* <ComputersCanvas /> */}
 
       <div className="absolute xs:bottom-10 bottom-32 w-full flex justify-center items-center">
         <a href="#about">

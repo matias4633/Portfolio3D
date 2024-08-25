@@ -38,7 +38,7 @@ const ServiceCard = ({ index, title, icon }) => (
 const About = () => {
   return (
     <>
-      <motion.div variants={textVariant()}>
+      <motion.div variants={textVariant()} style={{ marginTop: 40 }}>
         <p className={styles.sectionSubText}>Introducción</p>
         <h2 className={styles.sectionHeadText}>Descripción general.</h2>
       </motion.div>
@@ -47,19 +47,19 @@ const About = () => {
         variants={fadeIn("", "", 0.1, 1)}
         className='mt-4 text-secondary text-[17px] leading-[30px]'
       >
-        ¡Bienvenido a mi portfolio! Soy un apasionado desarrollador de software con una sólida experiencia en proyectos de gestión de negocios y microservicios. Mi carrera como estudiante de ingeniería informática me ha brindado una base sólida en lógica de negocio y un profundo conocimiento de diversas tecnologías.
-        <br/>
-        <br/>
-        Mi enfoque principal se centra en el ecosistema Java, donde me desenvuelvo con soltura utilizando tecnologías como Java EE, Spring, Spring Boot, Spring Security y Spring Cloud. Para front trabajo con React.js, Angular.js o Web puro.
-        <br/>
-        <br/>
-        En mi trayectoria como desarrollador de software, también he trabajado con bases de datos relacionales, especialmente con MySQL. Tengo experiencia sólida en el diseño y la optimización de esquemas de bases de datos, así como en la escritura de consultas complejas para garantizar un rendimiento óptimo y una integridad de datos impecable.
-        <br/>
-        <br/>
-        Además, poseo un sólido conocimiento en bases de datos NoSQL, especialmente en MongoDB. Estas herramientas me permiten crear aplicaciones robustas y escalables que cumplen con los más altos estándares de calidad.
-        <br/>
-        <br/>
-        Estoy emocionado de compartir contigo algunos de los proyectos en los que he trabajado y cómo mi experiencia y habilidades pueden contribuir al éxito de tu próximo proyecto. ¡Gracias por visitar mi portfolio!
+        ¡Bienvenido a mi portfolio! Soy un desarrollador de software apasionado con una sólida experiencia en la creación de soluciones de gestión empresarial, microservicios y aplicaciones móviles. Como estudiante de ingeniería informática, he desarrollado una base fuerte en lógica de negocio y una amplia comprensión de diversas tecnologías.
+        <br />
+        <br />
+        Mi principal enfoque está en el ecosistema Java, donde domino tecnologías clave como Java EE, Spring, Spring Boot, Spring Security y Spring Cloud. Estas herramientas me permiten construir aplicaciones empresariales robustas y seguras que se adaptan a las necesidades de cada proyecto. En el frontend, tengo experiencia trabajando con React.js y Angular.js, así como con tecnologías web puras, lo que me permite crear interfaces de usuario dinámicas y eficientes.
+        <br />
+        <br />
+        En el ámbito del desarrollo móvil, he trabajado extensamente con React Native para crear aplicaciones móviles tanto para Android como para iOS, destacando en proyectos como FacoExtema App, donde combiné funcionalidades avanzadas con una experiencia de usuario intuitiva y atractiva.
+        <br />
+        <br />
+        A lo largo de mi trayectoria, también he adquirido una experiencia considerable en el manejo de bases de datos relacionales como MySQL. He diseñado y optimizado esquemas de bases de datos, y desarrollado consultas complejas para garantizar un rendimiento óptimo y una integridad de datos sólida. Además, tengo un conocimiento profundo en bases de datos NoSQL, especialmente en MongoDB, lo que me permite crear aplicaciones escalables y de alto rendimiento.
+        <br />
+        <br />
+        Estoy entusiasmado por mostrarte algunos de los proyectos en los que he trabajado y cómo mis habilidades pueden aportar valor a tu próximo proyecto. ¡Gracias por visitar mi portfolio, y espero que encuentres inspiración en mi trabajo!
 
       </motion.p>
 

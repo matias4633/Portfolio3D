@@ -1,1 +1,1 @@
-npx gltfjsx public/woman/ninja3.glb
+npx gltfjsx public/adamHead/adamHead.gltf

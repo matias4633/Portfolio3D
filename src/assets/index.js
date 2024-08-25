@@ -45,13 +45,19 @@ import carrent from "./pagouno.png";
 import jobit from "./padrones.jpg";
 import tripguide from "./pokeapp.png";
 import labs from './company/labs.webp';
-import netone from './company/netone.jpg';
+import netone from './company/netone.png';
 import yt from "./yt.webp";
 import tienda from "./tiendaonline.png";
 import reloj from "./reloj.png";
 import leandro from "./leandro.jpg";
 import apppeli from "./apppeli.png";
 import perfil from './matias.jpg';
+import firebase from './firebase.png';
+import sima from './sima.png';
+import linkedin from './linkedin.png';
+import faco from './faco.jpeg'
+
+import video from './video/video2.mp4';
 
 export {
   logo,
@@ -99,5 +105,10 @@ export {
   reloj,
   leandro,
   apppeli,
-  perfil
+  perfil,
+  firebase,
+  sima,
+  linkedin,
+  faco,
+  video
 };

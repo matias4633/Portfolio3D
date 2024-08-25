@@ -3,8 +3,7 @@ import Tilt from "react-tilt";
 import { motion } from "framer-motion";
 
 import { styles } from "../styles";
-import { github } from "../assets";
-import { yt } from "../assets";
+import { github , yt , linkedin } from "../assets";
 import { SectionWrapper } from "../hoc";
 import { projects } from "../constants";
 import { fadeIn, textVariant } from "../utils/motion";
@@ -18,7 +17,7 @@ const ProjectCard = ({
   source_code_link,
   logo,
 }) => {
-  let logos =[github,yt];
+  let logos =[github,yt,linkedin];
 
   return (
       <div>

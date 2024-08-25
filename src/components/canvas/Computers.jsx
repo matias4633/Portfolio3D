@@ -6,7 +6,8 @@ import { Ninja2 } from "./Ninja2";
 import Woman from "./Woman";
 
 const Computers = ({ isMobile }) => {
-  const computer = useGLTF("./desktop_pc/scene.glb");
+  const computer = useGLTF("./adamHead/adamHead.gltf");
+
   return (
     <mesh>
       <hemisphereLight intensity={0.5} groundColor='black' />
@@ -21,13 +22,14 @@ const Computers = ({ isMobile }) => {
       <pointLight intensity={1.5} />
       <primitive
         object={computer.scene}
-        scale={isMobile ? 0.4 : 0.7}
-        position={isMobile ? [0, -1.6, 0] : [0, -3.2,0]}
+        scale={isMobile ? 2 : 2.5}
+        position={isMobile ? [0, -3.85, 0] : [0, -3.8, 2]}
         rotation={[0.1, -1.2, 0.2]}
       />
     </mesh>
   );
 };
+
 
 const ComputersCanvas = () => {
   const [isMobile, setIsMobile] = useState(false);
@@ -69,8 +71,8 @@ const ComputersCanvas = () => {
           autoRotate={true}
         />
         <Computers isMobile={isMobile} />
-        <Ninja2 isMobile={isMobile}></Ninja2>
-        <Woman isMobile={isMobile}></Woman>
+        {/* <Ninja2 isMobile={isMobile}></Ninja2> */}
+        {/* <Woman isMobile={isMobile}></Woman> */}
         {/* <Dragon2 isMobile={isMobile}></Dragon2> */}
         {/* <Plane  isMobile={isMobile}></Plane> */}
       </Suspense>
